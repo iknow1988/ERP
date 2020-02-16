@@ -1,0 +1,518 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url("images/bodytile.gif") repeat scroll 0 0 transparent;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+    color: #111;
+}
+
+a {
+    text-decoration: none;
+    color:#006666;
+}
+a:hover {
+    text-decoration: underline;
+    color: #111;
+}
+
+#wrap {
+    margin: 0 auto;
+    width: 970px;
+}
+
+#header {
+    height: 190px;
+	width: 970px;
+    background: #fff url(images/isn.jpg) no-repeat;
+}
+
+#context1 {
+    height: 20px;
+    width: 750px;
+    background:slategrey;
+    font-size: medium;
+    font-weight: 600;
+    color: #006666;
+    padding: 5px 0px 5px 20px;
+}
+#context {
+    height: 20px;
+    width: 950px;
+    background:slategrey;
+    font-size: medium;
+    font-weight: 600;
+    color: #006666;
+    padding: 5px 0px 5px 20px;
+}
+/*
+.f1 {
+    height: 20px;
+    float: right;
+    width: 810px;
+    text-align: justify;
+    font-size: small;
+    font-weight: 500;
+	padding:5px 0px 5px 30px;
+    background: url("images/righttile.gif") repeat scroll 0 0 transparent;
+    overflow: auto;
+}
+.f2 {
+    height: 20px;
+    float: right;
+    width: 730px;
+    text-align: justify;
+    font-size:small;
+    font-weight: 500;
+    overflow: auto;
+}
+.f3{
+    height: 20px;
+    float: right;
+    width: 610px;
+    text-align: justify;
+    font-size: small;
+    font-weight: 500;
+    overflow: auto;
+}
+.f4{
+    height: 20px;
+    float: right;
+    width: 490px;
+    text-align: justify;
+    font-size: small;
+    font-weight: 500;
+    overflow: auto;
+}
+.f5{
+    height: 20px;
+    float: right;
+    width: 310px;
+    text-align: justify;
+    font-size: small;
+    font-weight: 500;
+    overflow: auto;
+}
+.f6{
+    height: 20px;
+    float: right;
+    width: 170px;
+    text-align: justify;
+    font-size: small;
+    font-weight: 500;
+    overflow: auto;
+}
+.f7{
+    height: 20px;
+    float: right;
+    width: 50px;
+    text-align: justify;
+    font-size: small;
+    font-weight: 500;
+    overflow: auto;
+}
+.fa1 {
+    height: 20px;
+    float: right;
+    width: 750px;
+    text-align: justify;
+    font-size: 16px;
+    font-weight: 500;
+    font-size: small;
+	padding:5px 0px 5px 30px;
+    background: url("images/righttile.gif") repeat scroll 0 0 transparent;
+    overflow: auto;
+}
+.fa2 {
+    height: 20px;
+    float: right;
+    width: 570px;
+    text-align: justify;
+    font-size:16px;
+    font-weight: 500;
+    font-size: small;
+    overflow: auto;
+}
+.fa3{
+    height: 20px;
+    float: right;
+    width: 380px;
+    text-align: justify;
+   font-size: small;
+    font-weight: 500;
+    overflow: auto;
+}
+.fa4{
+    height: 20px;
+    float: right;
+    width: 100px;
+    text-align: justify;
+   font-size: small;
+    font-weight: 500;
+    overflow: auto;
+}
+#login {
+    float: right;
+    padding-right: 10px;
+}
+#btn_login {
+    width: 60px;
+    height: 25px;
+}
+#loggedin {
+    float : right;
+    padding-right: 10px;
+    visibility: hidden;
+}
+#logged_name {
+    float: none;
+}*/
+
+#content {
+    padding: 0px;
+}
+.right {
+    height: 530px;
+    float: right;
+    width: 740px;
+    text-align: justify;
+    padding-left: 20px;
+    padding-top: 20px;
+    background: url("images/righttile.gif") repeat scroll 0 0 transparent;
+    overflow: auto;
+}
+.right h2 {
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 10px;
+    height: 30px;
+    line-height: 30px;
+    color: #550000;
+}
+
+.right ul li a:hover {
+    color: #111;
+}
+.left {
+    height: 550px;
+    overflow: auto;
+    float: left;
+    width: 210px;
+    background: url("images/lefttile.gif") repeat scroll 0 0 transparent;
+}
+.left h2 {
+    margin: 10px 0 0 0;
+    padding-left: 10px;
+    height: 30px;
+    line-height: 30px;
+    background: darkred;
+    color: bisque;
+    font-size: 13px;
+}
+.left ul {
+    padding: 10px 0 10px 20px;
+    color: beige;
+    letter-spacing: 2px;
+}
+.left ul li a {
+    text-decoration: none;
+    font-weight: 600;
+    color: beige;
+}
+.left ul li a:hover {
+    color: lightskyblue;
+    border-bottom: aquamarine groove medium;
+}
+.articles {
+    padding: 10px;
+}
+
+#footer {
+    text-align: center;
+    font-size: 11px;
+    color: #aaa;
+    padding-top: 5px;
+    padding-bottom: 5px;
+   background-color: bisque;
+}
+/*Tunaz edited  part*/
+ulnk {
+    text-decoration: none;
+    color: #FFFFFF ;
+	font-size: 14px;
+	padding-left:35px;
+
+}
+ulnk:hover {
+    text-decoration: underline;
+    color: #111;
+}
+
+#center_admin {
+
+      padding-top: 20px;
+      padding-left: 20px;
+}
+#show_msg{
+    height: 20px;
+    width: 950px;
+    font-size: medium;
+    font-weight: 600;
+    color: peru;
+    padding-top: 20px;
+    padding-left: 250px;
+}
+#wc_note{
+    height: 20px;
+    width: 950px;
+    font-size: medium;
+    font-weight: 600;
+    color: chocolate;
+    padding-top: 20px;
+    padding-left: 200px;
+}
+/*animated left menu*/
+
+#f1 {
+    height: 25px;
+    width: 170px;
+    padding-left: 5px;
+    font:italic bold 15px/20px Georgia,serif;
+    color: gray;
+    border-style:solid;
+    border-width:1px;
+
+}
+#f2 {
+    /*height: 40px;
+    width: 575px;
+    */
+    padding-left: 25px;
+
+}
+#f3{
+    height: 25px;
+    width: 210px;
+    padding-left: 5px;
+    font:italic bold 15px/20px Georgia,serif;
+    color: gray;
+    border-style:solid;
+    border-width:1px;
+}
+#f4{
+   /* height: 40px;
+    width: 575px;*/
+    padding-left: 25px;
+
+}
+#f5{
+    height: 25px;
+    width: 170px;
+    padding-left: 5px;
+    font:italic bold 15px/20px Georgia,serif;
+    color: sandybrown;
+    border-style:solid;
+    border-width:1px;
+}
+
+#f6{
+   /* height: 40px;
+    width: 575px;*/
+    padding-left: 25px;
+
+}
+#f7{
+    height: 25px;
+    width: 210px;
+    padding-left: 5px;
+    font:italic bold 15px/20px Georgia,serif;
+    color: gray;
+    border-style:solid;
+    border-width:1px;
+}
+#labwise{
+    height: 25px;
+    width: 210px;
+    padding-left: 5px;
+    font:italic bold 14px/20px Georgia,serif;
+    color: gray;
+    border-style:solid;
+    border-width:1px;
+}
+#labs{
+   /* height: 40px;
+    width: 575px;*/
+    padding-left: 25px;
+
+}
+#compile{
+    height: 25px;
+    width: 170px;
+    padding-left: 5px;
+    font:italic bold 11px/20px Georgia,serif;
+    color: burlywood;
+    border-style:solid;
+    border-width:1px;
+}
+
+#show_caption{
+	height: 35px;
+    width: 950px;
+     font-family: Helvetica;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 600;
+    color: goldenrod;
+    padding-top: 10px;
+    padding-left: 200px;
+}
+
+/*css for table*/
+
+
+/*
+table {
+    width:200px;
+    border-top:1px solid #e5eff8;
+    border-right:1px solid #e5eff8;
+    margin: 0 auto;
+    border-collapse:collapse;
+    font-size: 12px;
+
+
+    }
+tr.odd td    {
+    background:#f7fbff;
+    }
+tr.odd .column1    {
+    background:#f4f9fe;
+    }
+.column1    {
+    background:#D8DFEA;
+    }
+td {
+    color:black;
+    width: 100px;
+    border-bottom:1px solid #CC6600;
+    border-left:1px solid #CC6600;
+     border-top: 1px solid #CC6600;
+    border-right: 1px solid #CC6600;
+    padding: 5px;
+    text-align:center;
+    }
+
+th {
+    font-weight:normal;
+    color: #3B5998;
+    text-align:left;
+    border-bottom: 1px solid #CC6600;
+    border-left:1px solid #CC6600;
+    border-top: 1px solid #CC6600;
+    border-right: 1px solid #CC6600;
+    padding: 2px 2px 2px 5px;
+    }
+thead th {
+     background:bisque;
+    text-align:center;
+    font:bold 12px "Century Gothic","Trebuchet MS",Arial,Helvetica,sans-serif;
+    color:black;
+    }
+tfoot th {
+    text-align:center;
+    background:#f4f9fe;
+    }
+tfoot th strong {
+    font:bold 01px "Century Gothic","Trebuchet MS",Arial,Helvetica,sans-serif;
+    margin: 0;
+    color:#66a3d3;
+        }
+tfoot th em {
+    color:#f03b58;
+    font-weight: bold;
+    font-size: 10px;
+    font-style: normal;
+    }
+*/
+    /*for soft checkkbox*/
+    #position_checkbox{
+
+     padding-left:140px;
+     }
+     #pc_position{
+      height:15px;
+       width: 100px;
+       padding-top: 10px;
+       padding-right:150px;
+       font-size: 16px;
+}
+  #total_pc{
+     padding-left: 130px;
+}
+#area_position{
+     height:15px;
+       width: 200px;
+       padding-right:150px;
+}
+#areabox_position{
+    /* height:15px;
+       width: 200px;*/
+       padding-left:170px;
+       /* padding-bottom:5px;*/
+}
+
+/*project show*/
+
+/*error msg login*/
+#show_error_msg{
+    color:#f03b58;
+    font-weight: bold;
+    font-size: 10px;
+    font-style: normal;
+}
+
+/* ISN for client login*/
+
+#client_option
+{
+    padding-left:50px;
+    width: 300px;
+    color:red;
+    font: bold 15px/20px Georgia,serif;
+}
+
+#register_notice
+{
+     padding-left:150px;
+     height: 15px;
+     width:300px;
+     /*background-color:brown;*/
+     font: bold 15px/15px Georgia,serif;
+}
+
+#login_page
+{
+    padding-left:200px;
+}
+
+#top_title
+{
+     padding: 10px;
+     color:slategrey;
+     font: bold 20px/20px Georgia,serif;
+}
+
+#invalid
+{
+     padding-left:90px;
+     color: red;
+}
+#top_title_wo
+{
+     padding-left: 100px;
+     color:cadetblue;
+     font: bold 20px/20px Georgia,serif;
+}

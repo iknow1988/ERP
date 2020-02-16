@@ -1,0 +1,277 @@
+root { 
+    display: block;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url("images/bodytile.gif") repeat scroll 0 0 transparent;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+    color: #111;
+}
+
+a {
+    text-decoration: none;
+    color: 	sandybrown ;
+	font-size: 12px;
+	padding-left: 15px;
+
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #111;
+}
+
+#wrap {
+    margin: 0 auto;
+    width: 970px;
+}
+
+#header {
+    height: 110px;
+    background: #fff url(images/isn.jpg) no-repeat;
+}
+#context {
+    height: 20px;
+    width: 950px;
+    background:slategrey;
+    font-size: medium;
+    font-weight: 600;
+    color: darkred;
+    padding: 5px 0px 5px 20px;
+}
+#wrap {
+    margin: 0 auto;
+    width: 970px;
+}
+#content {
+    padding: 0px;
+}
+.right {
+    height: 530px;
+    float: right;
+    width: 770px;
+    text-align: justify;
+    padding-left: 20px;
+    padding-top: 20px;
+    background: url("images/righttile.gif") repeat scroll 0 0 transparent;
+    overflow: auto;
+}
+.right h2 {
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 10px;
+    height: 30px;
+    line-height: 30px;
+    color: #550000;
+}
+
+.right ul li a:hover {
+    color: #111;
+}
+
+.left {
+    height: 550px;
+    overflow: auto;
+    float: left;
+    width:180px;
+    background: url("images/lefttile.gif") repeat scroll 0 0 transparent;
+}
+#footer {
+    text-align: center;
+    font-size: 11px;
+    color: #aaa;
+    padding-top: 5px;
+    padding-bottom: 5px;
+   background-color: bisque;
+}
+
+.left h2 {
+    margin: 10px 0 0 0;
+    padding-left: 10px;
+    height: 30px;
+    line-height: 30px;
+    background: darkred;
+    color: bisque;
+    font-size: 13px;
+}
+.left ul {
+    padding: 10px 0 10px 20px;
+    color: beige;
+    letter-spacing: 2px;
+}
+.left ul li a {
+    text-decoration: none;
+    font-weight: 600;
+    color: beige;
+}
+.left ul li a:hover {
+    color: lightskyblue;
+    border-bottom: aquamarine groove medium;
+}
+.center
+{
+
+margin-left:10px;
+padding:0px;
+width:60%;
+
+/*font:italic bold 20px/30px Georgia,serif;*/
+}
+/*for ajax*/
+
+#toggle_div{
+     background:#CC9900;
+     padding-left: 50px;
+     height: 25px;
+
+}
+
+/*animated left menu*/
+
+#f1 {
+    height: 25px;
+    width: 170px;
+    padding-left: 5px;
+    font:italic bold 15px/20px Georgia,serif;
+    color: sandybrown;
+    border-style:solid;
+    border-width:1px;
+
+}
+#f2 {
+    /*height: 40px;
+    width: 575px;
+    */
+    padding-left: 25px;
+
+}
+#f3{
+    height: 25px;
+    width: 170px;
+    padding-left: 5px;
+    font:italic bold 15px/20px Georgia,serif;
+    color: sandybrown;
+    border-style:solid;
+    border-width:1px;
+}
+#f4{
+   /* height: 40px;
+    width: 575px;*/
+    padding-left: 25px;
+
+}
+#f5{
+    height: 25px;
+    width: 170px;
+    padding-left: 5px;
+    font:italic bold 15px/20px Georgia,serif;
+    color: sandybrown;
+    border-style:solid;
+    border-width:1px;
+}
+
+#f6{
+   /* height: 40px;
+    width: 575px;*/
+    padding-left: 25px;
+
+}
+#f7{
+    height: 25px;
+    width: 170px;
+    padding-left: 5px;
+    font:italic bold 15px/20px Georgia,serif;
+    color: sandybrown;
+    border-style:solid;
+    border-width:1px;
+}
+#labwise{
+    height: 25px;
+    width: 170px;
+    padding-left: 5px;
+    font:italic bold 14px/20px Georgia,serif;
+    color: sandybrown;
+    border-style:solid;
+    border-width:1px;
+}
+#labs{
+   /* height: 40px;
+    width: 575px;*/
+    padding-left: 25px;
+
+}
+#compile{
+    height: 25px;
+    width: 170px;
+    padding-left: 5px;
+    font:italic bold 11px/20px Georgia,serif;
+    color: burlywood;
+    border-style:solid;
+    border-width:1px;
+}
+/* End of my change//////////*/
+
+#header_table
+{
+    background: red;
+     font:italic bold 15px/20px Georgia,serif;
+}
+
+#click_me{
+    height: 20px;
+    width:700px;
+    float: right;
+
+    /*padding-left: 100px;*/
+    font:italic bold 20px/20px Georgia,serif;
+    color: red;
+    overflow: auto;
+
+}
+
+/*student trouble ajax*/
+#show_message
+{
+       color:orchid;
+       background:#D3D3D3;
+       font:italic bold 20px/30px Georgia,serif;
+  
+ 
+}
+#content_com {
+    padding: 0px;
+}
+#back_complain
+{
+    color:#B22222;
+}
+
+#student_show
+{
+       color:slategrey;
+       height: 50px;
+       width:700px;
+       font:italic bold 17px/30px Georgia,serif;
+     
+}
+
+#show_caption
+{
+      color:saddlebrown;
+
+       font:italic bold 15px/30px Georgia,serif;
+}
+
+ #show_lab
+{
+      color:saddlebrown;
+
+       font: bold 20px/30px Georgia,serif;
+        padding-left: 270px;
+}

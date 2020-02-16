@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url("images/bodytile.gif") repeat scroll 0 0 transparent;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+    color: #111;
+}
+
+a {
+    text-decoration: none;
+    color: #425969;
+}
+a:hover {
+    text-decoration: underline;
+    color: #111;
+}
+
+#wrap {
+    margin: 0 auto;
+    width: 970px;
+}
+
+#header {
+    height: 110px;
+    background: #fff url(images/banner.gif) no-repeat;
+}
+#context {
+    height: 20px;
+    width: 950px;
+    background: burlywood;
+    font-size: medium;
+    font-weight: 600;
+    color: darkred;
+    padding: 5px 0px 5px 20px;
+}
+#login {
+    float: right;
+    padding-right: 10px;
+}
+#btn_login {
+    width: 60px;
+    height: 25px;
+}
+#loggedin {
+    float : right;
+    padding-right: 10px;
+/*    visibility: hidden;*/
+}
+/*#logged_name {
+    float: none;
+}*/
+
+#content {
+    padding: 0px;
+}
+.right {
+    height: 530px;
+    float: right;
+    width: 770px;
+    text-align: justify;
+    padding-left: 20px;
+    padding-top: 20px;
+    background: url("images/righttile.gif") repeat scroll 0 0 transparent;
+    overflow: auto;
+}
+.right h2 {
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 10px;
+    height: 30px;
+    line-height: 30px;
+    color: #550000;
+}
+
+.right ul li a:hover {
+    color: #111;
+}
+.left {
+    height: 550px;
+    overflow: auto;
+    float: left;
+    width: 180px;
+    background: url("images/lefttile.gif") repeat scroll 0 0 transparent;
+}
+.left h2 {
+    margin: 10px 0 0 0;
+    padding-left: 10px;
+    height: 30px;
+    line-height: 30px;
+    background: darkred;
+    color: bisque;
+    font-size: 13px;
+}
+.left ul {
+    padding: 10px 0 10px 20px;
+    color: beige;
+    letter-spacing: 2px;
+}
+.left ul li a {
+    text-decoration: none;
+    font-weight: 600;
+    color: beige;
+}
+.left ul li a:hover {
+    color: lightskyblue;
+    border-bottom: aquamarine groove medium;
+}
+.articles {
+    padding: 10px;
+}
+
+#footer {
+    text-align: center;
+    font-size: 11px;
+    color: #aaa;
+    padding-top: 5px;
+    padding-bottom: 5px;
+   background-color: #8B0D00;
+}
